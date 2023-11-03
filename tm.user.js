@@ -7,6 +7,7 @@
 // @match        https://zsti.elblag.pl/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
+// @updateURL    https://github.com/rayjay7225/code/raw/main/tm.user.js
 // ==/UserScript==
 
 (function() {
