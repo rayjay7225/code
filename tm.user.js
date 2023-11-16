@@ -9,6 +9,11 @@
 // @grant        none
 // ==/UserScript==
 
+function getElementByXpath(path) {
+    return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+}
+
+
 (function() {
     'use strict';
     // set titties
@@ -46,5 +51,19 @@
         element.style.backgroundSize = "contain";
         element.style.backgroundPosition = "center";
     });
-    })();
+    
+    // set rekrutacjaua
+    var rekutaa = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/h4/a")
+    rekutaa.innerHTML = "Rekrótaćia"
+
+    var rekutaaa = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/p")
+    rekutaaa.innerHTML = "do ZSTJ"
+
+    // set plan leki
+    var rekutaa = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/h4/a")
+    rekutaa.innerHTML = "Plan lękcij"
+
+    var rekutaaa = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/p")
+    rekutaaa.innerHTML = "Sprafć rozkat zajęćuf"
+})();
 
