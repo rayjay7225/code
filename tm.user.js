@@ -29,6 +29,10 @@
     var heder = document.querySelector('h4.elementor-heading-title.elementor-size-medium');
     heder.innerHTML = 'Zespuł szkolcuf <br>tehniczno-Jnformatycznyh';
 
+    // replace copyraijt text at bottom :33
+    var copyraijt = document/querySelector('span.elementor-heading-title.elementor-size-default')
+    copyraijt.innerHTML = '©  2021 Zespuł Szkolcuf Tehniczno-Jnformatycznyh'
+
     // replace video
     var new_video_url = "https://cdn.mtdv.me/video/rick.mp4";
     var videuo = document.querySelector('video.elementor-video');
