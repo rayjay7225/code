@@ -30,7 +30,7 @@
     heder.innerHTML = 'Zespuł szkolcuf <br>tehniczno-Jnformatycznyh';
 
     // replace copyraijt text at bottom :33
-    var copyraijt = document/querySelector('span.elementor-heading-title.elementor-size-default')
+    var copyraijt = document.querySelector('span.elementor-heading-title.elementor-size-default')
     copyraijt.innerHTML = '©  2021 Zespuł Szkolcuf Tehniczno-Jnformatycznyh'
 
     // replace video
