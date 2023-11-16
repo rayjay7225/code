@@ -75,7 +75,7 @@ function getElementByXpath(path) {
     var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[4]/div/div/div/div/div/div[2]/p")
     rekuta.innerHTML = "Zobacz nasze zdjeća"
 
-    document.getElementByXpath("/html/body/div[1]/div/section[1]/div/div/div[1]/div/div/div/div/div/nav/ul/li[1]/a").innerHTML = "Strona Gówna"
-    document.getElementByXpath("/html/body/div[1]/div/section[1]/div/div/div[1]/div/div/div/div/div/nav/ul/li[2]/div/a").innerHTML = "Szkolec"
+    document.getElementByXpath("/html/body/div[1]/div/section[1]/div/div/div[1]/div/div/div/div/div/nav/ul/li[1]/a").innerText = "Strona Gówna"
+    document.getElementByXpath("/html/body/div[1]/div/section[1]/div/div/div[1]/div/div/div/div/div/nav/ul/li[2]/div/a").innerText = "Szkolec"
 })();
 
