@@ -24,7 +24,7 @@
     // fix logo
     img.src = new_url;
     img.removeAttribute('srcset');
-
+//
     // replace main text
     var heder = document.querySelector('h4.elementor-heading-title.elementor-size-medium');
     heder.innerHTML = 'Zespuł szkolcuf <br>tehniczno-Jnformatycznyh';
