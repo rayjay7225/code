@@ -40,6 +40,7 @@
     anuncements.forEach(element => {
         element.style.backgroundImage = img2;
         element.style.backgroundSize = "contain";
+        element.style.backgroundPosition = "center";
     });
     })();
 
