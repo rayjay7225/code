@@ -13,7 +13,6 @@ function getElementByXpath(path) {
     return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 }
 
-
 (function() {
     'use strict';
     // set titties
@@ -55,29 +54,28 @@ function getElementByXpath(path) {
     // set rekrutacjaua
     var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/h4/a")
     rekuta.innerHTML = "Rekrótaćia"
-
     var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/p")
     rekuta.innerHTML = "do ZSTJ"
 
     // set plan leki
     var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/h4/a")
     rekuta.innerHTML = "Plan lękcij"
-
     var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/p")
     rekuta.innerHTML = "Sprafć rozkat zajęćuf"
 
     // set enik
     var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[3]/div/div/div/div/div/div[2]/h4/a")
     rekuta.innerHTML = "E-njk"
-
     var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[3]/div/div/div/div/div/div[2]/p")
     rekuta.innerHTML = "Sprafć oceeny"
 
     // set zdjeća
     var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[4]/div/div/div/div/div/div[2]/h4/a")
     rekuta.innerHTML = "Fotowoltaika"
-
     var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[4]/div/div/div/div/div/div[2]/p")
     rekuta.innerHTML = "Zobacz nasze zdjeća"
+
+    document.getElementByXpath("/html/body/div[1]/div/section[1]/div/div/div[1]/div/div/div/div/div/nav/ul/li[1]/a").innerHTML = "Strona Gówna"
+    document.getElementByXpath("/html/body/div[1]/div/section[1]/div/div/div[1]/div/div/div/div/div/nav/ul/li[2]/div/a").innerHTML = "Szkolec"
 })();
 
