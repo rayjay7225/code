@@ -53,17 +53,31 @@ function getElementByXpath(path) {
     });
     
     // set rekrutacjaua
-    var rekutaa = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/h4/a")
-    rekutaa.innerHTML = "Rekrótaćia"
+    var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/h4/a")
+    rekuta.innerHTML = "Rekrótaćia"
 
-    var rekutaaa = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/p")
-    rekutaaa.innerHTML = "do ZSTJ"
+    var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/p")
+    rekuta.innerHTML = "do ZSTJ"
 
     // set plan leki
-    var rekutaa = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/h4/a")
-    rekutaa.innerHTML = "Plan lękcij"
+    var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/h4/a")
+    rekuta.innerHTML = "Plan lękcij"
 
-    var rekutaaa = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/p")
-    rekutaaa.innerHTML = "Sprafć rozkat zajęćuf"
+    var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[2]/div/div/div/div/div/div[2]/p")
+    rekuta.innerHTML = "Sprafć rozkat zajęćuf"
+
+    // set enik
+    var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[3]/div/div/div/div/div/div[2]/h4/a")
+    rekuta.innerHTML = "E-njk"
+
+    var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[3]/div/div/div/div/div/div[2]/p")
+    rekuta.innerHTML = "Sprafć oceeny"
+
+    // set zdjeća
+    var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[4]/div/div/div/div/div/div[2]/h4/a")
+    rekuta.innerHTML = "Fotowoltaika"
+
+    var rekuta = getElementByXpath("/html/body/div[2]/div/div/section[2]/div[2]/div/div[4]/div/div/div/div/div/div[2]/p")
+    rekuta.innerHTML = "Zobacz nasze zdjeća"
 })();
 
